@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; 
+  background-color: #808080;
+  
+}
+
+.containerBar {
+  display: flex;
+  width: 500px;
+  justify-content: center;
+  background-color: rgb(37, 36, 36);
+  border-radius: 20px;
+  padding: 20px 35px;
+  margin: 0 auto; 
+}
+
+.containerText {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.colorText {
+  color: #808080;
+  font-weight: bold;
+  font-size: 30px;
+  padding-left: 20px;
+}
+.clickMeButton{
+  margin-top: 30px;
+  background-color: transparent;
+  height: 40px;
+  width: 120px;
+  border-radius: 7px;
+  border: solid 2px rgb(37, 36, 36);
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.4s
+}
+.clickMeButton:hover{
+  background-color: rgb(37, 36, 36);
+  color: white;
+}
+.clickMeButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
